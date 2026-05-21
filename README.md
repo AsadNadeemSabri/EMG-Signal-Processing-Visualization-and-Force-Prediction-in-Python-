@@ -82,7 +82,7 @@ Raw signals are plotted with a channel offset for visual clarity:
 - **HD-sEMG**: First 10 of 64 channels displayed
 - **iEMG**: All 3 channels (FDS, ED distal, ED proximal)
 
-![Block Diagram](Images/1Visualize.png)
+![Visualize](Images/1Visualize.PNG)
 
 ---
 
