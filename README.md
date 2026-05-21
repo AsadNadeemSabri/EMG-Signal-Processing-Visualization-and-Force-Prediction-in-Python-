@@ -4,7 +4,7 @@ A Python-based pipeline for processing **High-Density Surface EMG (HD-sEMG)** an
 
 ---
 
-## 📋 Table of Contents
+## 📋 Table of Contents 
 
 - [Overview](#overview)
 - [Project Structure](#project-structure)
