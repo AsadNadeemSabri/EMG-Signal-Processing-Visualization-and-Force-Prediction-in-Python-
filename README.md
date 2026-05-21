@@ -82,7 +82,15 @@ Raw signals are plotted with a channel offset for visual clarity:
 - **HD-sEMG**: First 10 of 64 channels displayed
 - **iEMG**: All 3 channels (FDS, ED distal, ED proximal)
 
+<<<<<<< Updated upstream
 ![Visualize](Images/1Visualize.PNG)
+=======
+<<<<<<< HEAD
+![Block Diagram](Images/1Visualize.PNG)
+=======
+![Visualize](Images/1Visualize.PNG)
+>>>>>>> 6d4eb2d7182d01cc57a742717824b00b95911061
+>>>>>>> Stashed changes
 
 ---
 
@@ -103,7 +111,7 @@ Both filters use zero-phase `filtfilt` to eliminate phase distortion.
 
 The mean signal across all channels is computed and its FFT is plotted before and after filtering, for both HD-sEMG and iEMG. This shows the removal of the 50 Hz power line noise and out-of-band frequencies.
 
-![Block Diagram](Images/2FFT.png)
+![Block Diagram](Images/2FFT.PNG)
 
 ---
 
@@ -111,7 +119,7 @@ The mean signal across all channels is computed and its FFT is plotted before an
 
 Raw (blue dashed) and filtered (red solid) signals are overlaid for the first 10 HD-sEMG channels and all 3 iEMG channels, with a vertical offset applied per channel.
 
-![Block Diagram](Images/3RawFiltered.png)
+![Block Diagram](Images/3RawFiltered.PNG)
 
 ---
 
@@ -134,7 +142,7 @@ A sliding-window RMS is computed using four window sizes:
 
 Results are plotted in a 4×2 grid (HD-sEMG and iEMG side by side for each window).
 
-![Block Diagram](Images/4RMS.png)
+![Block Diagram](Images/4RMS.PNG)
 
 ---
 
@@ -142,7 +150,7 @@ Results are plotted in a 4×2 grid (HD-sEMG and iEMG side by side for each windo
 
 Using a 200 ms RMS window, the 8 averaged HD-sEMG group envelopes are plotted alongside the recorded force signal on a shared time axis with dual Y-axes.
 
-![Block Diagram](Images/5RMSvsForce.png)
+![Block Diagram](Images/5RMSvsForce.PNG)
 
 ---
 
@@ -154,8 +162,7 @@ The RMS of group 1 (channel 1) is normalized and correlated with the normalized 
 R = Pearson correlation between normalized RMS and normalized force
 ```
 
-![Block Diagram](Images/6coorelation.png)
-
+![Block Diagram](Images/6coorelation.PNG)
 ---
 
 ### Task 2.3 — Force Prediction via Linear Regression
@@ -170,7 +177,7 @@ RMSE = sqrt(mean((predicted - actual)²))
 
 Predicted (red) and measured (blue) force are displayed on dual Y-axes.
 
-![Block Diagram](Images/7Prediction.png)
+![Block Diagram](Images/7Prediction.PNG)
 
 ---
 
