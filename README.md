@@ -34,7 +34,13 @@ The pipeline covers signal loading, unit conversion, notch + bandpass filtering,
 ├── Data_2.mat               # iEMG dataset (3 channels)
 ├── emg_pipeline.py          # Main processing script
 ├── images/                  # Figures and diagrams
-│   └── xyz.png
+│   └── 1Visualize.png
+    └── 2FFT.png
+    └── 3RawFiltered.png
+    └── 4RMS.png
+    └── 5RMSvsForce.png
+    └── 6coorelation.png
+    └── 7Prediction.png
 └── README.md
 ```
 
