@@ -1,4 +1,4 @@
-# 🧠 EMG Signal Processing & Force Prediction
+# EMG Signal Processing Visualization and Force Prediction in Python
 
 A Python-based pipeline for processing **High-Density Surface EMG (HD-sEMG)** and **intramuscular EMG (iEMG)** signals, including filtering, frequency analysis, RMS envelope extraction, and muscle force prediction using linear regression.
 
